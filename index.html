@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rutal Mahajan, Ph.D. | Computer Science</title>
+<meta name="description" content="Assistant Professor of Computer Science at Utica University. Research in NLP, HPC, quantum NLP and computing education.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#12263A;--ink2:#1d3a56;--paper:#F5F7F9;--card:#fff;--line:#d5dde5;--muted:#5a6b7b;--teal:#0E7C86;
+--head:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;--body:"Literata",Georgia,"Times New Roman",serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:1.5rem}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.03rem/1.7 var(--body)}
+a{color:var(--teal)}
+a:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.side{position:fixed;inset:0 auto 0 0;width:320px;background:var(--ink);color:#e8eef3;padding:2.5rem 2rem;display:flex;flex-direction:column;gap:1.25rem;overflow-y:auto}
+.photo{position:relative;width:150px;height:150px;border-radius:50%;background:var(--ink2);display:grid;place-items:center;font:700 2.6rem var(--head);color:#9fd6da;overflow:hidden;border:3px solid var(--teal)}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.side h1{font:700 2rem/1.1 var(--head);margin:0}
+.side .role{margin:.4rem 0 0;color:#b9c7d3;font-size:.95rem;line-height:1.5}
+.side nav{display:flex;flex-direction:column;margin-top:.5rem}
+.side nav a{color:#cfdbe5;text-decoration:none;font:500 1rem var(--head);padding:.55rem 0 .55rem .9rem;border-left:3px solid transparent}
+.side nav a:hover{color:#fff}
+.side nav a.on{color:#fff;border-left-color:#4fc3cc}
+.side .contact{margin-top:auto;font-size:.9rem;color:#b9c7d3;line-height:1.9}
+.side .contact a{color:#9fd6da}
+main{margin-left:320px;padding:3.5rem clamp(1.5rem,5vw,4.5rem) 4rem;max-width:1000px}
+section{padding-bottom:3rem}
+h2{font:700 1.7rem/1.2 var(--head);margin:0 0 1.25rem;padding-bottom:.6rem;border-bottom:2px solid var(--ink)}
+h3{font:500 1.1rem/1.35 var(--head);margin:0}
+h4{font:700 1rem var(--head);margin:1.5rem 0 .6rem;color:var(--ink2)}
+.intro p{max-width:68ch}
+.interests{border-left:3px solid var(--teal);padding-left:1rem;color:var(--ink2)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;padding:0;list-style:none;margin:1rem 0 0}
+.chips li{font:500 .85rem var(--head);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:.25rem .65rem}
+.tl{list-style:none;margin:0;padding:0 0 0 1.5rem;border-left:2px solid var(--line)}
+.tl>li{position:relative;padding-bottom:1.75rem}
+.tl>li::before{content:"";position:absolute;left:calc(-1.5rem - 7px);top:.55rem;width:12px;height:12px;border-radius:50%;background:var(--paper);border:3px solid var(--teal)}
+.when{font:500 .9rem var(--head);color:var(--muted)}
+.where{color:var(--muted);margin:0}
+.tl ul{margin:.5rem 0 0;padding-left:1.1rem}
+.tl li li{margin:.2rem 0}
+.pubs{margin:0;padding-left:1.4rem}
+.pubs li{margin-bottom:.8rem;max-width:74ch;font-size:.97rem;line-height:1.6}
+.pubs .venue{color:var(--muted)}
+.note{font-size:.9rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:1.1rem 1.25rem}
+.card p{margin:.5rem 0 0;font-size:.95rem;line-height:1.6}
+.tag{font:500 .8rem var(--head);color:var(--teal)}
+.rows{list-style:none;margin:0;padding:0}
+.rows li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;padding:.7rem 0;border-bottom:1px solid var(--line);font-size:.97rem;line-height:1.6}
+footer{margin-left:320px;padding:1.5rem clamp(1.5rem,5vw,4.5rem);color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+@media (max-width:860px){
+.side{position:static;width:auto;padding:2rem 1.5rem}
+.side nav{flex-direction:row;flex-wrap:wrap;gap:.25rem 1rem}
+.side nav a{border-left:0;border-bottom:3px solid transparent;padding:.3rem 0}
+.side nav a.on{border-bottom-color:#4fc3cc}
+.side .contact{margin-top:0}
+main,footer{margin-left:0}
+.rows li{grid-template-columns:1fr;gap:.1rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<aside class="side">
+  <div class="photo"><span aria-hidden="true">RM</span><img src="images/me.jpg" alt="Portrait of Rutal Mahajan" onerror="this.remove()"></div>
+  <div>
+    <h1>Rutal Mahajan, Ph.D.</h1>
+    <p class="role">Assistant Professor of Computer Science<br>Utica University, Utica, NY</p>
+  </div>
+  <nav aria-label="Sections">
+    <a href="#about" class="on">About</a>
+    <a href="#work">Work history</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Invited talks</a>
+    <a href="#projects">Projects</a>
+    <a href="#mentoring">Mentoring</a>
+  </nav>
+  <div class="contact">
+    <a href="mailto:rutal.mahajan@gmail.com">rutal.mahajan@gmail.com</a><br>
+    <a href="https://scholar.google.com/citations?user=6HZcZFsAAAAJ&hl=en">Google Scholar</a> · <a href="https://www.linkedin.com/in/rutal-mahajan/">LinkedIn</a><br>
+    <a href="Rutal_Mahajan_CV.pdf">Download CV (PDF)</a>
+  </div>
+</aside>
+
+<main>
+<section id="about" class="intro">
+  <h2>About</h2>
+  <p>I am an Assistant Professor of Computer Science at Utica University. My work connects language technology with high performance computing: privacy-preserving and quantum NLP, explainable AI, and HPC-based agentic workflows. I also build ways to teach parallel computing and AI in core computing courses.</p>
+  <p>I completed my Ph.D. at SVNIT Surat, India (2022) on computational humor and emotion recognition in a multilingual context, after an M.Tech. there in 2014. I have taught for over a decade in India and the United States. I also hold a Sangeet Visharad in Bharatnatyam dance.</p>
+  <p class="interests"><strong>Research interests:</strong> natural language processing, low-resource languages, high performance computing, machine learning, responsible AI, and pedagogy in computer science.</p>
+  <ul class="chips">
+    <li>NSM HPC Master Trainer (1 of 40 selected from 400+)</li>
+    <li>NVIDIA Certified Instructor</li>
+    <li>NVIDIA University Ambassador</li>
+    <li>NVIDIA GenAI LLM Associate</li>
+  </ul>
+</section>
+
+<section id="work">
+  <h2>Work history</h2>
+  <ol class="tl">
+    <li>
+      <span class="when">2024 to present</span>
+      <h3>Assistant Professor, Department of Computer Science</h3>
+      <p class="where">Utica University, Utica, NY</p>
+      <ul>
+        <li>Teach graduate Machine Learning, NLP, Algorithms and Theory of Computation, and undergraduate programming and data structures.</li>
+        <li>Designed new AI/ML concentration courses for the B.S. in Computer Science, following ACM/IEEE recommendations.</li>
+        <li>Led the setup of a Pittsburgh Supercomputing Center satellite site, hosting HPC workshops in February and August 2026.</li>
+        <li>Member of the university AI Taskforce on ethical AI use.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">Apr 2024 to Aug 2024</span>
+      <h3>Assistant Professor, AI and Machine Learning</h3>
+      <p class="where">Symbiosis Institute of Technology, Pune, India</p>
+      <ul><li>Taught Big Data Analytics and Data Structures, and developed the Big Data Analytics lab.</li></ul>
+    </li>
+    <li>
+      <span class="when">2010 to 2024</span>
+      <h3>Assistant Professor (Senior Grade from 2022), Computer Science and Engineering</h3>
+      <p class="where">S.N. Patel Institute of Technology and Research Center, Gujarat, India</p>
+      <ul>
+        <li>Taught more than a dozen courses, including Design and Analysis of Algorithms, Theory of Computation, AI and Machine Learning.</li>
+        <li>Lead coordinator of the website and app management team (2017 to 2022); member of the accreditation committee (2018 to 2022).</li>
+        <li>Received the institute’s Outstanding Achievement Award in 2023.</li>
+        <li>Pursued an M.Tech. at SVNIT Surat on institute sponsorship (2012 to 2014).</li>
+      </ul>
+    </li>
+    <li>
+      <span class="when">2016 to 2020</span>
+      <h3>Co-Founder and CEO, MyPageantry</h3>
+      <p class="where">India; also remote language consultant for What3words, London (2019)</p>
+    </li>
+  </ol>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <p class="note">A selection. The full list is on <a href="https://scholar.google.com/citations?user=6HZcZFsAAAAJ&hl=en">Google Scholar</a>.</p>
+  <h4>Conference papers</h4>
+  <ol class="pubs">
+    <li>Mane, R., Kalia, A., Shetty, A., <strong>Mahajan, R.</strong>, Pareek, P. “Multimodal Feature Integration for Pairwise Relationship Classification in Astronomy Literatures.” <span class="venue">WASP 2026, co-located with IJCNLP-AACL. Accepted, ACL Anthology.</span></li>
+    <li>Furda, S., <strong>Mahajan, R.</strong> “Privacy-Aware MPI Orchestration for Differentially Private Clinical Named Entity Recognition.” <span class="venue">ICMLDE 2026, Procedia Computer Science. Accepted.</span></li>
+    <li>Velpula, R., <strong>Mahajan, R.</strong> “A Multi-Strategy Optimization Framework for Interpretable Legal Case Outcome Prediction.” <span class="venue">ICMLDE 2026, Procedia Computer Science. Accepted.</span></li>
+    <li>KC, A., <strong>Mahajan, R.</strong> “Parallel and GPU-Accelerated Approaches for Scalable Autonomous Vehicle Simulation and Training.” <span class="venue">CTSEM 2025, Bhopal. In press, Springer.</span></li>
+    <li>Shindra, R., <strong>Mahajan, R.</strong>, Zaveri, M. “Privacy-Preserving Quantum Natural Language Processing for Secure Text Classification.” <span class="venue">IEEE IC2E3, Uttarakhand, 2025.</span></li>
+    <li><strong>Mahajan, R.</strong>, More, A., Shah, U. “Navigating Emotion in Code-Mixed Languages: Performance of ML and DL Models on Hindi-English Text.” <span class="venue">ICMLDE 2024, Procedia Computer Science.</span></li>
+    <li><strong>Mahajan, R.</strong>, Zaveri, M.A. “SVNIT@SemEval 2017 Task-6: Learning a Sense of Humor Using Supervised Approach.” <span class="venue">SemEval-2017, Vancouver.</span></li>
+  </ol>
+  <h4>Journal articles</h4>
+  <ol class="pubs">
+    <li><strong>Mahajan, R.</strong>, Zaveri, M. “An Automatic Humor Identification Model with Novel Features from Berger’s Typology and Ensemble Models.” <span class="venue">Decision Analytics Journal, vol. 11, 2024.</span></li>
+    <li><strong>Mahajan, R.</strong>, Zaveri, M. “Harnessing Emotive Features for Emotion Recognition from Text.” <span class="venue">IJACSA, vol. 12, no. 7, 2021.</span></li>
+    <li><strong>Mahajan, R.</strong>, Zaveri, M. “Humor Identification Using Affect-Based Content in Target Text.” <span class="venue">Journal of Intelligent &amp; Fuzzy Systems, IOS Press, 2020.</span></li>
+  </ol>
+  <h4>Book chapters and edited volumes</h4>
+  <ol class="pubs">
+    <li><strong>Mahajan, R.</strong> “Integrating Parallel Programming Concepts Using OpenMP in Data Structures and Algorithm Courses.” <span class="venue">In Parallel and Distributed Computing Instruction in Undergraduate Curricula, Vol. 3, Springer (NSF/IEEE-TCPP CDER Book Project). In publication.</span></li>
+    <li>Kolikipogu, R., <strong>Mahajan, R.</strong>, et al. “Leveraging Deep Learning for Pulmonary Nodule Diagnosis in Chest CT Imaging.” <span class="venue">Cambridge Scholars Publishing, 2026, pp. 331 to 357.</span></li>
+    <li>Thakor, V., Madan, S., Vyas, P., Jain, V., <strong>Mahajan, R.</strong> (Eds.). <em>E-Waste and Circular Economy in Technology.</em> <span class="venue">IGI Global, 2026.</span></li>
+  </ol>
+</section>
+
+<section id="talks">
+  <h2>Invited talks</h2>
+  <ul class="rows">
+    <li><span class="when">Mar 2026</span><span><strong>Keynote: “Contribution of AI in Women Empowerment.”</strong> IIT Mandi Catalyst and Camellia Institute of Engineering and Technology.</span></li>
+    <li><span class="when">Mar 2026</span><span><strong>NVIDIA Certification Workshop: Fundamentals of Deep Learning.</strong> G.H. Raisoni Institute. 50 participants, 37 earned certification.</span></li>
+    <li><span class="when">Feb 2026</span><span><strong>“High-Performance Computing and Artificial Intelligence.”</strong> ACM Dallas Chapter.</span></li>
+    <li><span class="when">Nov 2025</span><span><strong>“High-Performance Computing and Artificial Intelligence.”</strong> International STEM Week, IEEE WIE, ATLAS SkillTech University, Mumbai.</span></li>
+    <li><span class="when">Jun 2025</span><span><strong>“HPC and AI: Building Blocks of Modern Intelligent Systems”</strong> and <strong>“Dask, AI and HPC.”</strong> National Supercomputing Mission faculty development program with C-DAC Pune.</span></li>
+    <li><span class="when">Feb 2025</span><span><strong>Keynote: “Recent Trends in High-Performance Computing Using AI.”</strong> AICTE ATAL Academy FDP, Amalapuram.</span></li>
+    <li><span class="when">Dec 2024</span><span><strong>Keynote: “High-Performance Computing for Data-Intensive and Complex AI Applications.”</strong> AICTE ATAL Academy FDP, Chaitanya Bharathi Institute of Technology, Hyderabad.</span></li>
+  </ul>
+  <p class="note">More talks are listed in the <a href="Rutal_Mahajan_CV.pdf">CV</a>.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Quantum-enhanced privacy-preserving clinical NLP</h3>
+      <span class="tag">CRA-WP DREU, Summer 2026</span>
+      <p>A research initiative on clinical text de-identification, spanning differentially private NER, MPI-based benchmarking of quantum kernel simulations on ACCESS Bridges-2, and quantum-kernel explainability. Produced an ICMLDE 2026 paper and an IEEE Quantum Week poster.</p>
+    </article>
+    <article class="card">
+      <h3>CX-SHAP</h3>
+      <span class="tag">Explainable AI</span>
+      <p>Concordance-guided cross-domain explainability for clinical decision support, tested across healthcare and finance, with evaluation on CPU, GPU, HPC and edge devices (Jetson Nano). A prototype was delivered to a client.</p>
+    </article>
+    <article class="card">
+      <h3>AstroCLIMB</h3>
+      <span class="tag">Multimodal NLP, WASP 2026</span>
+      <p>Pairwise relationship classification in astronomy literature by combining figures and captions. Co-mentored with Dr. Preksha Pareek.</p>
+    </article>
+    <article class="card">
+      <h3>Vāṇī Setu</h3>
+      <span class="tag">Sanskrit NLP</span>
+      <p>An interactive Sanskrit learning suite with translation and linguistic feedback, shown as a research demo at ISCLS 2026, IIT Roorkee.</p>
+    </article>
+    <article class="card">
+      <h3>PSC satellite site at Utica</h3>
+      <span class="tag">HPC education</span>
+      <p>A Pittsburgh Supercomputing Center satellite site bringing workshops on big data, machine learning and MPI programming to the university.</p>
+    </article>
+  </div>
+</section>
+
+<section id="mentoring">
+  <h2>Mentoring</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>DREU summer interns, 2026</h3>
+      <p>Mentored Kyle Hartness, Sofia Furda and Edmund Bombardieri in quantum NLP research, chosen from 800+ applicants to the 10-week program.</p>
+    </article>
+    <article class="card">
+      <h3>Graduate students</h3>
+      <p>Sole supervisor of Aryan KC’s CX-SHAP thesis. Mentored a MultiClinNER shared-task poster at ACL 2026 with Shaurav Parajuli and Suman KC, and low-resource NLP work on Twi, Amharic and Nepali.</p>
+    </article>
+    <article class="card">
+      <h3>Undergraduate teams</h3>
+      <p>Guided student projects on campus electricity scheduling (extended for CCSCNE 2026) and EMG signal processing with GPU optimization, both shown at Student Research Day.</p>
+    </article>
+    <article class="card">
+      <h3>External co-advising</h3>
+      <p>Co-advised an M.Tech. thesis on privacy-preserving quantum NLP with Dr. Mukesh Zaveri (NIT Surat), and Sanskrit NLP undergraduate projects with Dr. Preksha Pareek (Thakur College, Mumbai).</p>
+    </article>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="yr">2026</span> Rutal Mahajan</footer>
+
+<script>
+document.getElementById("yr").textContent=new Date().getFullYear();
+var links=document.querySelectorAll(".side nav a"),map={};
+links.forEach(function(a){map[a.getAttribute("href").slice(1)]=a});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove("on")});map[e.target.id].classList.add("on")}})},{rootMargin:"-30% 0px -60% 0px"});
+document.querySelectorAll("main section").forEach(function(s){io.observe(s)});
+</script>
+</body>
+</html>
